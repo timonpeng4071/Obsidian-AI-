@@ -1,0 +1,11 @@
+{
+	"id": "ai-auto-tags",
+	"name": "AI 自动标签与属性",
+	"version": "2.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "利用 AI 根据笔记内容或选中的文本自动生成标签、标题、作者、日期、来源、网址、别名和摘要等属性，并将这些属性添加到笔记的属性区 (Frontmatter) 中。支持多种 AI 模型，可保存多个 API 配置。",
+	"author": "timonpeng4071",
+	"authorUrl": "https://github.com/timonpeng4071",
+	"fundingUrl": "https://github.com/timonpeng4071",
+	"isDesktopOnly": false
+}

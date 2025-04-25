@@ -1,0 +1,62 @@
+/* AI 自动属性插件样式 */
+
+.ai-tags-settings .setting-item {
+    padding: 10px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.ai-tags-settings .setting-item-description {
+    color: var(--text-muted);
+}
+
+.ai-tags-settings .setting-item-name {
+    font-weight: bold;
+}
+
+.ai-tags-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.ai-tags-loading-spinner {
+    border: 3px solid var(--background-modifier-border);
+    border-top: 3px solid var(--interactive-accent);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: ai-tags-spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes ai-tags-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 确认对话框样式 */
+.ai-confirm-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.ai-confirm-modal .confirm-message {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+
+.ai-confirm-modal .setting-item {
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.ai-confirm-modal .setting-item-control {
+    display: flex;
+    gap: 10px;
+}
